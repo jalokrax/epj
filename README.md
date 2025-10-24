@@ -38,6 +38,8 @@ epj/
 │ └── .env.example
 ├── docker-compose.yml # Starter database i Docker
 └── README.md
+<img width="412" height="374" alt="image" src="https://github.com/user-attachments/assets/87770f1b-54b5-45af-985b-dbcbd94a0f72" />
+
 
 
 

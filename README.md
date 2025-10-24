@@ -1,14 +1,72 @@
+# EPJ – MVP (Elektronisk Patientjournal)
 
-# EPJ – MVP
-En lille elektronisk patientjournal (EPJ) til undervisningsprojekt.
+Dette projekt er en prototype (MVP) af et elektronisk patientjournalsystem udviklet i TypeScript, React og PostgreSQL.
 
-## Scope (MVP)
-- Patientdata, brugerstyring (roller), journalnotater + audit/versionshistorik.  Se `docs/kravspec.md`.
+## 🚀 Formål
+Systemet gør det muligt at:
+- Søge og oprette patienter  
+- Oprette nye kontakter og notater  
+- (Senere) håndtere diagnoser og medicin  
+- Udveksle data via XML  
 
-## Kør lokalt (kort)
-- Krav: Node LTS, Docker
-- (Senere) `docker compose up -d` → start Postgres
-- (Senere) `api/` og `web/` beskrivelser
+---
 
-## Dokumentation
-Se mappen `docs/` for krav, plan, arkitektur, roller og risici.
+## Teknologier
+| Område | Teknologi | Formål |
+|--------|------------|--------|
+| **Frontend** | React (Vite, TypeScript) | Brugergrænseflade |
+| **Backend** | Node.js + Express (TypeScript) | REST API |
+| **Database** | PostgreSQL | Datahåndtering |
+| **Kommunikation** | JSON / XML | Dataudveksling |
+| **Container** | Docker Compose | Databaseopsætning |
+| **Versionstyring** | Git + GitHub | Samarbejde og versionering |
+
+---
+
+## Projektstruktur
+
+epj/
+├── api/ # Backend
+│ ├── src/
+│ ├── package.json
+│ ├── tsconfig.json
+│ └── .env.example
+├── web/ # Frontend
+│ ├── src/
+│ ├── package.json
+│ ├── vite.config.ts
+│ └── .env.example
+├── docker-compose.yml # Starter database i Docker
+└── README.md
+
+
+
+---
+
+## Installation og opsætning
+
+### 1. Klon projektet
+
+git clone https://github.com/jalokrax/epj.git
+cd epj
+
+
+### 2. Start backend (API)
+
+cd api
+npm install
+npm run dev
+
+# API kører nu på http://localhost:3000
+
+
+### 3. Start frontend (web)
+
+cd web
+npm install
+npm run dev
+
+# Frontend kører nu på http://localhost:5173
+
+
+

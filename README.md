@@ -57,7 +57,7 @@ cd api
 npm install
 npm run dev
 
-# API kører nu på http://localhost:3000
+API kører nu på http://localhost:3000
 
 
 ### 3. Start frontend (web)
@@ -66,7 +66,7 @@ cd web
 npm install
 npm run dev
 
-# Frontend kører nu på http://localhost:5173
+Frontend kører nu på http://localhost:5173
 
 
 

@@ -51,6 +51,7 @@ epj/
 
 - git clone https://github.com/jalokrax/epj.git
 - cd epj
+- docker compose up -d
 
 
 ### 2. Start backend (API)

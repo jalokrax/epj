@@ -2,7 +2,7 @@
 
 Dette projekt er en prototype (MVP) af et elektronisk patientjournalsystem udviklet i TypeScript, React og PostgreSQL.
 
-## 🚀 Formål
+## Formål
 Systemet gør det muligt at:
 - Søge og oprette patienter  
 - Oprette nye kontakter og notater  

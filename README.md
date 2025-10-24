@@ -62,7 +62,7 @@ epj/
 API kører nu på http://localhost:3000
 
 
-### 3. Start frontend (web)
+### 3. Start frontend (web) (I en ny terminal)
 
 - cd web
 - npm install

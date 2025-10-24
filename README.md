@@ -45,26 +45,28 @@ epj/
 
 ## Installation og opsætning
 
+Åben GitBash
+
 ### 1. Klon projektet
 
-git clone https://github.com/jalokrax/epj.git
-cd epj
+- git clone https://github.com/jalokrax/epj.git
+- cd epj
 
 
 ### 2. Start backend (API)
 
-cd api
-npm install
-npm run dev
+- cd api
+- npm install
+- npm run dev
 
 API kører nu på http://localhost:3000
 
 
 ### 3. Start frontend (web)
 
-cd web
-npm install
-npm run dev
+- cd web
+- npm install
+- npm run dev
 
 Frontend kører nu på http://localhost:5173
 

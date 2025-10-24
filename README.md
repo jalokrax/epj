@@ -45,6 +45,14 @@ epj/
 
 ## Installation og opsætning
 
+### Programliste
+- Node.js
+  - Installer og skriv dernæst node -v, og npm -v i GitBash for at tjekke om det er installeret korrekt
+- Docker Desktop (Installer og log ind med Github-log ind. Docker Desktop skal køre i baggrunden)
+- Git (GitBash) - programmet man skriver kommandoer i
+- Visual Studio Code (VS Code)
+  
+
 Åben GitBash
 
 ### 1. Klon projektet
